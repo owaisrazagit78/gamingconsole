@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Css Link  -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- google font link -->
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans&amp;display=swap" rel="stylesheet">
+
+	<!-- Jquery link  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<!-- Favicon link -->
+	<link rel="shortcut icon" href="./icons8-console-32.png" type="image/x-icon">
+
+	<!-- AOS Animation link  -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- font Awesome link  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<title>Tangoline Inc.</title>
+</head>
+
+<body>
+
+	<script>
+		AOS.init();
+	</script>
+
+	<!-- Header & Navbar Area  -->
+	<header class="">
+		<div class="head-container">
+			<div class="logo">
+				<a href="#">
+					<img src="Tangoline.logo.png" alt="Tangoline-Logo" class="logo-img">
+				</a>
+			</div>
+			<div class="toggle-btn">
+				<svg height="32px" width="32px">
+					<path
+						d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+						fill="#fff"></path>
+				</svg>
+			</div>
+			<nav>
+				<ul class="navigation">
+					<li><a href="#home" class="nav-link">Home</a></li>
+					<li><a href="#brand" class="nav-link">Product</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#feature" class="nav-link">Features</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- arrow up Btn  -->
+	<a class="arrowbtn" href="#"> <i class="fa-sharp fa-solid fa-angles-up"></i></a>
+
+	<!-- Home Slider Area  -->
+	<div class="slider" id="home">
+		<div class="slideshow-container">
+			<div class="mySlides fade" style="display: none;">
+				<img src="./Slide 2.jpg" style="width:100%">
+				<div class="text">
+					<h3>Do You <span>Like</span> it.</h3>
+					<p>Explore the World of Video Games and Consoles</p>
+					<br><br><a href="#" class="button-btn">- Download -</a>
+				</div>
+			</div>
+
+			<div class="mySlides fade" style="display: block;">
+				<img src="././wallpaperflare.com_wallpaper (1).jpg" style="width:100%; ">
+				<div class="text">
+					<h3>Do You <span>Love</span> it.</h3>
+					<p>By Veiwing of some details.</p>
+					<br><br><a href="#" class="button-btn">- View -</a>
+				</div>
+			</div>
+
+			<div class="mySlides fade" style="display: none;">
+				<img src="./Slide 1.jpg" style="width:100%">
+				<div class="text">
+					<h3>Do You <span>Play</span> it.</h3>
+					<p>To Play the Demo.</p>
+					<br><br><a href="#" class="button-btn">- Play -</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Brand Pruduct Area  -->
+	<div class="brands-grid brand-showcase" data-aos="fade-up" style="padding: 50px 0;" id="brand">
+		<h2>HERE'S FEW <span>FAMOUS BRANDS</span> PRODUCT</h2>
+		<div class="brands-container brand-showcase-line">
+			<div class="brand-items">
+				<a href="##" class="brandepic" title="Epic">
+					<img src="epic-logo1.png" alt="Epic Logo">
+				</a>
+			</div>
+			<div class="brand-items">
+				<a href="##" class="brandtencent" title="Tencent">
+					<img src="tencent-logo.png" alt="Tencent Logo">
+				</a>
+			</div>
+			<div class="brand-items">
+				<a href="##" class="brandsega" title="Sega">
+					<img src="sega-logo.png" alt="Sega Logo">
+				</a>
+			</div>
+			<div class="brand-items">
+				<a href="##" class="brandsony" title="Sony">
+					<img src="sony logo1.png" alt="sony ">
+				</a>
+			</div>
+			<div class="brand-items">
+				<a href="##" class="brandlenovo" title="Lenovo">
+					<img src="leneovo logo.png" alt="lenovo ">
+				</a>
+			</div>
+			<div class="brand-items">
+				<a href="##" class="brandxbox" title="Xbox">
+					<img src="xbox logo.png" alt="Xbox ">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Product Card Area  -->
+	<div class="products-grid" data-aos="fade-right" id="sony" style="display: none;">
+		<div class="products-container fade">
+			<div class="products-items">
+				<img src="pubg.jpg" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>PUBG</h3>
+					</a>
+					<p>PlayerUnknown's Battlegrounds is an online multiplayer battle royale game developed and published
+						by PUBG Corporation, a subsidiary of South Korean video game company Bluehole.</p>
+					<a href="download/doc/pubg.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="freefire.jpg" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Free Fire</h3>
+					</a>
+					<p>Free Fire is an electronic game mobile of action-adventure genre battle royale, developed by
+						111dots Studio and published by Garena. This game was released on December 4, 2017.</p>
+					<a href="download/doc/FreeFire.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">- Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="payday2.jpg" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Pay Back 2</h3>
+					</a>
+					<p>Payback 2 is a role-playing video game, developed and published by Apex Designs. It was released
+						on November 20, 2012 for Android and iOS. It became free to play in 2013.</p>
+					<a href="download/doc/Payback2.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">- Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="callofdutymobile.jpg" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Call of Duty Mobile</h3>
+					</a>
+					<p>Call of Duty: Mobile is a free-to-play first-person shooter game developed by Tencent Games and
+						published by Activision. Call of Duty series in the definitive first-person action experience on
+						mobile.</p>
+					<a href="download/doc/call  of duty.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="zerocity.jpg" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Zero City</h3>
+					</a>
+					<p>Zero City: Zombie Shelter is a base building and zombie combat game in the style of the popular
+						fallout shelter and Hustle Castle games. Develop your shelter to earn large rewards.</p>
+					<a href="download/doc/Zero.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="ringofelysium.jpg" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Ring of Elysium</h3>
+					</a>
+					<p>Ring of Elysium is a free-to-play, multiplayer online battle royale game developed by Tencent
+						Games and published by Tencent Games and Garena. This game was released on September 19, 2018.
+					</p>
+					<a href="download/doc/pubg.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="products-grid" data-aos="fade-up" id="lenovo" style="display: none;">
+		<div class="products-container">
+			<div class="products-items">
+				<img src="spider man.PNG" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Spider Man</h3>
+					</a>
+					<p>Spider-Men, Peter Parker and Miles Morales, return for an exciting new adventure in the
+						critically acclaimed Marvel’s Spider-Man franchise for PS5.Game Help supported
+						PS5 game.</p>
+					<a href="download/doc/Spiderman.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="god of war.avif" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>God Of War</h3>
+					</a>
+					<p>Return to the action faster than ever; the PS5™ console's high-speed SSD won't leave you waiting
+						long to resurrect from death. Enjoy shortened load times from in-game checkpoints, or when fast
+						traveling.</p>
+					<a href="download/doc/god of war.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">- Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="the last of us.PNG" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>The last of Us</h3>
+					</a>
+					<p>Endure and survive.Game that started it all, rebuilt for the PlayStation®5 console.Experience
+						storytelling and unforgettable characters in The Last of Us, winner of over 200 Game of the
+						Year.</p>
+					<a href="download/doc/the last of us.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">- Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="Returnal.PNG" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Returnal</h3>
+					</a>
+					<p>Uncover the truth as you jump rapidly through portals between worlds, via the PS5™ system’s
+						ultra-high-speed SSD.Fight to break the cycle with another Selene from a branching
+						timeline,Haunting narrative.</p>
+					<a href="download/doc/Returnal.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="horizon.PNG" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Horizon</h3>
+					</a>
+					<p>Horizon Forbidden West™ Complete Edition
+						Brave the Forbidden West in its entirety, including bonus content and the Burning Shores
+						expansion. Available for PS5 on October 6, 2023, and for PC in 2024.</p>
+					<a href="download/doc/horizon.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<img src="ratchet & Clank.PNG" style="width: 320px;" alt="">
+				<div class="products-text">
+					<a href="#">
+						<h3>Ratchet & Clank</h3>
+					</a>
+					<p>Planet-hop with abandon – near-instant loading via the PS5 system’s SSD sends you hurtling across
+						the galaxy at hyper-speed.Ratchet's a hero with a heart of gold and arsenal of destruction.
+					</p>
+					<a href="download/doc/Ratchet clank.docx" class="button-btn"
+						style="display: inline-block; margin-top: 20px;">-
+						Download -</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About Area  -->
+	<div class="about-section" id="about">
+		<div class="about-container">
+
+			<div class="about-text">
+				<h1 style="font-weight: 700; font-size: 2.5rem;">About Us</h1>
+				<h2 style="padding-top: 20px;">Welcome to <span>Tangoline Inc.</span></h2>
+				<p>Welcome to Tangoline Inc., your ultimate destination for a decade of unparalleled gaming experiences!
+					Founded in (10 Year), Tangoline Inc. has been at the forefront of the gaming industry, bringing joy
+					and excitement to gamers of all ages. With a passion for innovation and a commitment to customer
+					satisfaction, we have established ourselves as a trusted name in the world of video games and
+					consoles.</p>
+				<h1>Our Journey</h1>
+				<br>
+				<p>Tangoline Inc. embarked on this thrilling journey in (10 Year) with a simple yet powerful mission –
+					to provide a diverse range of high-quality video games and game consoles to enthusiasts around the
+					globe. Over the years, we've not only met but exceeded the expectations of our valued customers,
+					establishing long-lasting relationships built on trust and excellence.</p>
+				<h1>Visit Us</h1>
+				<br>
+				<p>Tangoline Inc. is more than just a store; it's a community of gamers coming together to celebrate a
+					shared love for gaming. Whether you're a seasoned player or just starting your gaming journey, we
+					invite you to visit our store, explore our online platform, and become a part of the Tangoline Inc.
+					family.
+
+					Thank you for choosing Tangoline Inc. for your gaming needs. We look forward to continuing our
+					journey with you, one game at a time!</p>
+				<a href="#" class="button-btn" style="display: inline-block;">- More -</a>
+			</div>
+			<div class="img-gallery">
+				<a href="#"><img src="./nikita-kostrykin-i1Q9pphrWUw-unsplash (1).jpg"
+						style="width: 90%; border-radius: 45px;"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="quote">
+		<div class="show-container">
+			<div class="quote-text" data-aos="fade-right">
+				<h3><svg width="20px" height="20px" viewBox="0 0 512 512">
+						<path fill="#ff9933"
+							d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+						</path>
+					</svg> Life is like a game of cards. The hand you are dealt is determinism the way you play it is
+					free will. <svg width="20px" height="20px" viewBox="0 0 512 512">
+						<path fill="#ff9933"
+							d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z">
+						</path>
+					</svg></h3>
+				<p> - Jawaharlal Nehres -</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Compare Product Area  -->
+	<div class="comparison">
+		<h2>How can Compare?</h2>
+		<p>Get involved to compare the various products of different as well as similar brands and Choose Best Product
+			accordingly to yours Choice.</p>
+		<a href="#" class="button-btn" style="display: inline-block;">- Compare Now -</a>
+	</div>
+
+	<div class="products-grid" style="user-select: none;">
+		<h5 id="error" style="color: red; text-align: center; margin-bottom: 20px;"> </h5>
+		<div class="products-container" data-aos="fade-right">
+			<div class="products-items">
+				<h4>Item 1</h4>
+				<select class="sel" id="it1" onchange="item1()"
+					style="border: 1px solid #000;padding: 10px 20px;margin-bottom: 20px;">
+					<option hidden="true">SELECT</option>
+					<option>Casio Loopy</option>
+					<option>Nintendo 64</option>
+					<option>Playstation 2</option>
+					<option>Powkiddy X18</option>
+					<option>Playstation 4</option>
+					<option>Sega Saturn</option>
+				</select>
+				<br>
+				<img src="kindpng_712753.png" style="width: 300px;" id="img1">
+				<div class="products-text">
+					<h3 id="pn1">Playstation 4</h3>
+					<p id="desc1">The PlayStation 4 is an 8th-generation home video game console developed by Sony
+						Interactive Entertainment. The console's controller was also redesigned and improved over the
+						PlayStation 3, with improved buttons and analog sticks, and an integrated touchpad among other
+						changes.</p>
+					<p id="pp1">PKR : 47,999</p>
+					<a href="#" class="button-btn" id="compare-btn-1" style="display: inline-block; margin-top: 20px;">-
+						Buy Now -</a>
+				</div>
+			</div>
+
+			<div class="products-items">
+				<h4>Item 2</h4>
+				<select class="sel" id="it2" onchange="item2()"
+					style="border: 1px solid #000;padding: 10px 20px;margin-bottom: 20px;">
+					<option hidden="true">SELECT</option>
+					<option>Casio Loopy</option>
+					<option>Nintendo 64</option>
+					<option>Playstation 2</option>
+					<option>Powkiddy X18</option>
+					<option>Playstation 4</option>
+					<option>Sega Saturn</option>
+				</select>
+				<br>
+				<img src="kindpng_4682488.png" style="width: 300px;" id="img2">
+				<div class="products-text">
+					<h3 id="pn2">Playstation 2</h3>
+					<p id="desc2">PS2 sold over 155 million consoles worldwide and had almost 4,000 games released up to
+						late 2013, making it the highest selling and most played console of all time. As well as great
+						games,PS2 boated the birthplace of online gaming, high definition graphics.</p>
+					<p id="pp2">PKR : 14,699</p>
+					<a href="#" class="button-btn" id="compare-btn-2" style="display: inline-block; margin-top: 20px;">-
+						Buy Now -</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="features">
+		<h1 style="text-align: center;">Features Product</h1>
+		<div class="slideshow1-container" id="feature">
+			<div class="mySlidess fade" style="display: block;">
+				<div class="text">
+					<h3>Game Hub
+						Games have hubs on PS5. Each game’s hub collects everything related to that game together, from
+						activities, to community broadcasts, to new game content. It’s a constantly updated space that
+						will evolve and adapt throughout the game’s lifecycle. </h3>
+					<br><img src="./feature product 1.webp" class="feature-img">
+					<p><span><b>Lords of the Fallen</b></span>:Unite and fight </p>
+				</div>
+			</div>
+
+			<div class="mySlidess fade" style="display: none;">
+				<div class="text">
+					<h3>Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support
+						for haptic feedback1, adaptive triggers1 and 3D Audio*, and an all-new generation of incredible
+						PlayStation games *3D audio via built-in TV speakers or analog/USB stereo headphones. Set up
+						required</h3>
+					<br> <img src="./access-controller-feature.webp" class="feature-img">
+					<p><span><b>PlayStation®4 Pro</b></span>, Lightning speed|
+						icon-image
+						Breath-taking immersion
+						icon-image|
+						Stunning game</p>
+				</div>
+			</div>
+
+			<div class="mySlidess fade" style="display: none;">
+				<div class="text">
+					<h3>Relive the beloved game that started it all – rebuilt for the PlayStation®5 console. Experience
+						the emotional storytelling and unforgettable characters in The Last of Us™, winner of over 200
+						Game of the Year awards. In a ravaged civilization, where infected and hardened survivors run
+					</h3>
+					<br> <img src="./10-games-to-play-first-keyart-01-en-13oct23.webp" class="feature-img">
+					<p><span><b>Ratchet & Clank</b></span>: Rift Apart</p>
+				</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
+		</div>
+
+		<div style="text-align:center;">
+			<span class="dot active" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
+
+	<!-- contact area -->
+
+	<div class="contact-container form" id="contact">
+		<div class="contact-text" data-aos="fade-up">
+			<h2>Email :<a href="https://mail.google.com/mail/u/0/#inbox" style="color: #ff9933;">oraza2530@gmail.com</a>
+			</h2>
+			<p>Do you Have any Question?
+				Please do not Hesitate to contact us directly.Our team will come back to you within a matter of hours to
+				help you.
+			</p>
+			<form>
+				<h1>Contact Us</h1>
+				<br><br>
+				<h3>Email</h3>
+				<input type="text" name="email" required="">
+				<br>
+				<h3>Subject</h3>
+				<input type="text" name="subject" required="">
+				<br>
+				<h3>Message</h3>
+				<textarea style="resize: none; height: 30vh;" required=""></textarea>
+				<br>
+				<input type="submit" value="Send" class="button-btn">
+			</form>
+		</div>
+		<div class="mapouter">
+			<div class="gmap_canvas"><iframe
+					src="https://maps.google.com/maps?q=aptech%20learning%20north%20nazmibad%20ii%20center&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+					frameborder="0" scrolling="no" style="width: 300px; height: 400px;"></iframe>
+				<a href="https://blooketjoin.org/blooket-host/"></a>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- footer area  -->
+	<footer>
+		<a href="#"><img src="Tangoline.logo.png" style="width: 280px;"></a>
+		<div class="footer-text" id="home">
+			<p><a href="#">Tangoline Inc.</a> © - 2024 All rights Reserved.</p>
+		</div>
+
+	</footer>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
